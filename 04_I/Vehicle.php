@@ -10,10 +10,6 @@ interface Vehicle
 
     public function lightsOn();
 
-    public function signalLeft();
-
-    public function signalRight();
-
     public function changeGear($gear);
 
     public function stopRadio();
